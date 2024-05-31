@@ -5,6 +5,7 @@
   z-index: 999;
   background-color: white;
   width: 100%;
+  height: 60px;
   top: 0;
   left: 0;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.75);
@@ -13,20 +14,25 @@
 
 .menu-bar__logo {
   margin-left: 30px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
 
 .menu-bar__item {
-  display: flex;
-  margin: auto;
+  margin-right: 15px;
+  width: 100%;
+  display: inline-flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 
 .menu-bar__item > ul {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
